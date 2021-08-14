@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.consulting,
+.contactus,
+.design,
+.development,
+.marketing,
+.products,
+.services,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
+}
+
+.home {
+  background-image: url(./images/home.jpg);
+}
+
+.consulting {
+  background-image: url(./images/consulting.jpg);
+}
+
+.design {
+  background-image: url(./images/design.jpg);
+}
+
+.development {
+  background-image: url(./images/development.jpg);
+}
+
+.marketing {
+  background-image: url(./images/marketing.jpg);
+}
+
+.products {
+  background-image: url(./images/products.jpg);
+}
+
+.contactus {
+  background-image: url(./images/contactus.jpg);
+}
+
+.services {
+  background-image: url(./images/services.jpg);
+}
+
+.signup {
+  background-image: url(./images/signup.jpg);
+}
